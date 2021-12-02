@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><br>
+        <form action="https://localhost:8080/reg" method="post">
+            
+          <label for="username">Username &nbsp;&nbsp;::&nbsp;&nbsp; </label>  
+          <input type="text" pattern="admin" id="username" placeholder="Enter the username..">
+          <br><br>
+          <label for="">Password &nbsp;&nbsp;::&nbsp;&nbsp; </label>  
+            <input type="password" placeholder="Enter the Password" > <br><br>
+        <label for="">Email :: &nbsp;</label>
+            <input type="email"  
+            placeholder="Enter the Email..." required
+            pattern="^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$">
+
+            <br><br>
+            <input type="submit">
+        </form>
+
+
+</body>
+</html>
