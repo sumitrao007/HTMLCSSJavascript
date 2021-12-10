@@ -1,0 +1,12 @@
+ /* we apply in 3 ways 
+    1 by using tag name
+    2 by using class name
+    3 by using id */
+
+    .myclass1{
+        /* border: 2px solid red ; */
+        border: 2px dotted red ;
+        font-size: 32px;
+        padding: 8px;
+        margin: 25px;
+    }
