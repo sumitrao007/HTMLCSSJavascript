@@ -1,0 +1,37 @@
+img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid tomato;
+    border-radius: 50%
+}
+
+.myimg{
+    width: 250px;
+    height: 250px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+
+
+.main-nav{
+    display: flex; /* It is use to place one another*/
+    list-style: none;
+}
+.push{
+    margin-left: auto;
+}
+
+ul li a {
+    margin: 10px;
+}
+
+table,thead,th,tbody,tr,td{
+    border:1px solid
+}
+
+.mySpan{
+    padding: 10px;
+    color: tomato;
+    background: turquoise;
+    text-align: center;
+}
